@@ -1,0 +1,41 @@
+
+/* Custom Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.content-section {
+    background-color: #eaeaea;
+    padding: 20px;
+    height: 1000px; /* To create a tall section */
+    margin: 20px 0;
+}
+
+h1, h2 {
+    margin: 20px 0;
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse {
+        background-color: #eaeaea;
+    }
+
+    .navbar-collapse ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar-collapse ul li {
+        text-align: center;
+    }
+}
